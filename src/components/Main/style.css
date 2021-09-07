@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card {
+    padding: 5px;
+    margin: 5px;
+    background-color:#333333;
+    transition: 0.3s all;
+    transform: scale(1);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Card img {
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.Card:hover {
+    transform: scale(0.95);
+    background-color: #505050;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    background-color: #99df30;
+}
+
+.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pagination button {
+    margin: 5px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    background-color: greenyellow;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+.pagination button:hover {
+    background-color: rgb(112, 167, 31);
+}
