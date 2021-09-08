@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+
+<h1 align="center">WIKIPEDIA RICK AND MORTY</h1>
+
+![Design preview rickandmorty wikipedia](src/assets/SLIDE.png)
+
+<hr>
+
+## Sobre o Projeto
+Neste projeto pessoal, queria criar uma biblioteca sobre algo, e aprender um pouco mais APIs. Então como sou fã de Rick and Morty juntei o útil ao agradável.
+
+Consegui entender melhor como consumir API de forma correta e aplicar meu conhecimento em Hooks. Use eles para poder fazer a paginação onde o usuário poderá avançar ou recuar, explorando mais de cada personagem.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 

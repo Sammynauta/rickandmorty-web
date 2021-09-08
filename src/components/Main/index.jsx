@@ -34,6 +34,7 @@ export default function Main() {
 
   return (
     <>
+    <span className='title'>BIBLIOTECA - TODOS OS PERSONAGENS</span>
       <div className="container">
         <nav>
           <ul className="pagination">
